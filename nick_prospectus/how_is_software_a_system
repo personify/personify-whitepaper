@@ -1,0 +1,8 @@
+How is Software a System? 
+
+We may define as software intensive system as Grady Booch does: “...”[Ref1] a system where software plays a prominent role. Software itself may be defined as the system of different components--procedures, functions, objects, facts--that are used to accomplish a given task. The only thing that may be said not to be a system is something that exists in isolation, without any interaction with external entities.  
+
+Beck and Cunningham make a powerful point: “no object is an island...All objects stand in relationship to others, on whom they rely for services and control.”[Ref2] Any piece of software that is composed of objects can be said to be a system. Procedural software that communicates across different methods/functions can be described as a system. Since all software involves some type of interaction with an external entity--be it a user, another system, etc-- all software products are systems.
+
+Ref1 
+Ref2 K. Beck, W. Cunningham, and W. S. Services. (1989) A laboratory for teaching object-oriented thinking. http://c2.com/doc/oopsla89/paper.html. [Online]. Available: http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.129.4074 

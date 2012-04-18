@@ -1,0 +1,7 @@
+What is a Self Adaptive System?
+
+The research community lacks a standard definition of a self-adaptive system. Nevertheless, general agreement states that self-adaptive systems are aware of their internal state, their surrounding environment, and can adjust their behavior according to change in context. [1]  This definition seems to implicitly depend on the notion of a software agent, which has a non-standard but accepted definition of an encapsulated computer system that is situated in some environment and is capable of flexible, autonomous action in order to meet its design objectives. [2]
+
+[1] B. H. C. Cheng, R. Lemos, H. Giese, P. Inverardi, J. Magee, J. Andersson, B. Becker, N. Bencomo, Y. Brun, B. Cukic, G. Marzo Serugendo, S. Dustdar, A. Finkelstein, C. Gacek, K. Geihs, V. Grassi, G. Karsai, H. M. Kienle, J. Kramer, M. Litoiu, S. Malek, R. Mirandola, H. A. Müller, S. Park, M. Shaw, M. Tichy, M. Tivoli, D. Weyns, and J. Whittle, "Software engineering for Self-Adaptive systems: A research roadmap," in Software Engineering for Self-Adaptive Systems, ser. Lecture Notes in Computer Science, B. H. C. Cheng, R. Lemos, H. Giese, P. Inverardi, and J. Magee, Eds.	Berlin, Heidelberg: Springer Berlin / Heidelberg, 2009, vol. 5525, ch. 1, pp. 1-26. [Online]. Available: http://dx.doi.org/10.1007/978-3-642-02161-9_1
+
+[2] G. Weiss, "Agent orientation in software engineering," Knowl. Eng. Rev., vol. 16, pp. 349-373, Dec. 2001. [Online]. Available: http://dx.doi.org/10.1017/S026988890100025X
