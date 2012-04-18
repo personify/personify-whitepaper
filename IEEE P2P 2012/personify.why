@@ -1,0 +1,7 @@
+Personify represents an advancement in programming toolset and methodology, fundamentally changing the way software is written. Most programming languages in the world revolve around Procedural, Imperative/Object-Oriented, and Functional approaches. Consequently, most software is written as a set of modules that are invoked in specific sequence to achieve desired functionality. Components of the system are passive entities, that may manifest intelligent behavior by use but may not be distinctly intelligent.
+
+Another paradigm is rapidly emerging. Agent Oriented Software Engineering [][][] seeks to engineer software as collaborative societies of agents, capable of autonomous action and adaptation. Agents form a super-structure of functionality and intelligence that they use to model beliefs, capabilities, and obligations[]. Their interactions are typically P2P.
+
+Analysis of leading BitTorrent clients[Vuze][BitTornado][OneSwarm] reveals that this software engineering paradigm has not made its way into the design of most P2P networking applications. This is not unexpected. The paradigm is very nascent.
+ 
+Such an approach may not seem to have obvious benefits. One could argue that as long as the software manifests the behavior to allow clients to connect to each other and form P2P networks, its implementation is irrelevant. Yet one cannot help but notice how  conceptually elegant the idea of building P2P applications as themselves P2P networks may seem, on a meta-level. It may also have other significant benefits.

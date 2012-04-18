@@ -1,0 +1,19 @@
+Personify is an experimental agile framework for self-adaptive, multi-agent software systems. It combines the best practices of agile software development[TDD][BDD][DDD][DSL][CI] and agent-oriented research[McCarthy][Shomham][Gaia][TROPOS] in artificial intelligence to enable rapid construction of software as an organization of agents. Agents collborate in peer-to-peer networks, acting according to their beliefs, capabilities, and obligations, representing the world via internal Domain Models[] and interacting via Services[].
+
+   
+References
+[57]K. Beck, Test Driven Development: By Example, 1st ed.	Addison-Wesley Professional, Nov. 2002. [Online]. Available: http://www.worldcat.org/isbn/0321146530
+[61]D. North, "Introducing BDD," Mar. 2006.
+[41]E. Evans, Domain-Driven Design: Tackling Complexity in the Heart of Software, 1st ed.	Addison-Wesley Professional, Aug. 2003. [Online]. Available: http://www.worldcat.org/isbn/0321125215
+[47]A. Rahien, DSLs in Boo: Domain Specific Languages in .NET, 1st ed.	Greenwich, CT, USA: Manning Publications Co., 2010. [Online]. Available: http://portal.acm.org/citation.cfm?id=1824316
+[48]F. Dearle, Groovy for Domain-Specific Languages.	Packt Publishing, Jun. 2010. [Online]. Available: http://www.worldcat.org/isbn/184719690X
+[49]M. Fowler, Domain-Specific Languages (Addison-Wesley Signature Series (Fowler)), 1st ed.	Addison-Wesley 
+[54]J. Humble and D. Farley, Continuous Delivery: Reliable Software Releases through Build, Test, and Deployment Automation (Addison-Wesley Signature Series (Fowler)), 1st ed.	Addison-Wesley Professional, Aug. 2010. [Online]. Available: http://www.worldcat.org/isbn/0321601912
+[55]P. M. Duvall, S. Matyas, and A. Glover, Continuous Integration: Improving Software Quality and Reducing Risk, 1st ed.	Addison-Wesley Professional, Jul. 2007. [Online]. Available: http://www.worldcat.org/isbn/0321336380
+[]J. Mccarthy, "Ascribing mental qualities to machines," in In Philosophical Perspectives in Artificial Intelligence, 1979. [Online]. Available: http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.141.6639
+[]Y. Shoham, "Agent-oriented programming," Artif. Intell., vol. 60, no. 1, pp. 51-92, Mar. 1993. [Online]. Available: http://dx.doi.org/10.1016/0004-3702(93)90034-9
+[]M. Wooldridge, N. R. Jennings, and D. Kinny, "The gaia methodology for Agent-Oriented analysis and design," in Journal of Autonomous Agents and Multi-Agent Systems, vol. 3, 2000, pp. 285-312. [Online]. Available: http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.17.2121
+[]P. Bresciani, P. Giorgini, F. Giunchiglia, J. Mylopoulos, and A. Perini, "Tropos: An Agent-Oriented software development methodology," Autonomous Agents and Multi-Agent Systems, vol. 8, no. 3, pp. 203-236, 2004. [Online]. Available: http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.1.7049
+[]M. Fowler, Patterns of Enterprise Application Architecture, 1st ed.    Addison-Wesley Professional, Nov. 2002. [Online]. Available: http://www.worldcat.org/isbn/0321127420
+
+

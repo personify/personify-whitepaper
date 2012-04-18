@@ -1,0 +1,19 @@
+Why should we use Personify to build the PowerNet?
+
+No one knows how to build a PowerNet, yet. The technology stack is not fully there, in terms of hardware/software integration. Technology changes with time, so it is expected that integration of innovations in generation, storage, and information technology can make such a system possible. 
+
+The primary challenge is an architectural one. Obviously there will be multiple views: an electrical engineer will consider circuits, a network engineer will consider routing and switching, a softare engineer will consider the software components that can be used to build the system.
+
+The goal is to build a P2P infrastructure for resource sharing that is agnostic of the resource it is distributing, with components that are able to adapt both to human input and autonomously adapt based on events within the network.   
+
+Many approaches could be taken to building a PowerNet. As it is essentially a P2P file sharing application that says Quantized Energy Is Just A Uniform Resource, one could imagine building such an application with something as "traditionally enterprise" as a Service Oriented Architecture[][] or something as lightweight as a set of Python scripts, as Bram Cohen's original BitTorrent[]. Each of these approaches attacks the problem from specific levels of abstraction: Services or Scripts. 
+
+At such levels of abstraction, the intelligence for activities such as decision making and negotiation is pushed down deep into the implemenation. Such intelligence usually lives in the method/function bodies and lines of script. Consequently, it can be difficult to see the forest for the trees, especially when trying to add new intelligent features like automated calculation of P2P metrics such as Accountability Based Influence[] and Convivality Merics[] and dynamic adaptation of the network accordingly.
+
+Agents, as a higher level of abstraction, allow us to reason about this network more simply. The notion of the intelligence of an agent becomes a first class entity within the paradigm. This enables things like adaptation and autonomy to be reasoned about at a higher level, from a conceptually cohesive perspective. 
+
+Agents "know" about their goals, the services they provide, and the obligations they have to other agents. The pieces that manifest that intelligence are designed to move away from statically defined logic to context-aware response. 
+
+When one considers that Agents can be recursively defined, such that a collective of agents may be treated as a single agent by another agent, the approach has the potential to scale nicely. Responsiblities can be pushed down to sub-agents that are specialized to a task, with the higher level collective serving as a coordination mechanism. This also improves maintainability and extensibility, as in order to fix broken functionality, or to augment and extend, one only has to look in one place.
+
+This sounds nice, of course, in theory. Now let's walk through how we would consider a PowerNet as a network of Energizers. We will describe a prototype for an Energizer.                         

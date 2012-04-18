@@ -1,0 +1,35 @@
+Personify: A P2P lean software architectural pattern oriented reference model for multi-agent self-adaptive systems
+
+Abstract
+
+What is Personify?
+
+Why is Personify Important?
+
+When should Personify be used?
+
+How does Personify relate to P2P networks?
+
+Why does it help to build P2P networks in Personify?
+- User Convenience
+- Convergence of Disciplines
+
+Case Study: Energize.me
+What is Energize.me?
+How is Energize.me a P2P network?
+Why should we use Personify to build energize.me?
+When can we expect an energize.me prototype?
+
+Case Study: Energizer
+energizer.story
+     
+Who is the Energizer? (Scout, Archivist, Analyst, Collector, Negotiator)
+energerizer.who
+What does representing Energizer as an Agent give us?
+energizer.agent
+Related Work:
+
+Conclusion:
+
+References [max 10]
+ 

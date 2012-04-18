@@ -1,0 +1,11 @@
+Submission to IEEEP2P12
+
+Society.io: A P2P lean software architectural pattern oriented reference model for self-adaptive system
+Large-scale infrastructure technology;Self-organization;P2P applications and systems over mobile networks
+Self-adaptive systems are an area of active research within peer-to-peer computing, software engineering, robotics, artificial intelligence, and many other fields. The most prevalent research approaches have taken to solving the problem of autonomous adaptation of software using theory-heavy approaches such as extensions to Z, development of adaptation modeling tools for UML, and other traditional techniques. 
+
+The literature has been mainly silent on the application of the best practices of modern software engineering, including Agile methodology tools, advanced principles of design and architecture, and the shift towards dynamic programming paradigms. We argue that these tools are a natural fit for the development of such systems. Effective combination and use describes software as a society of interacting agents that can display goal-oriented, autonomous behavior. Hence, we can build software systems to manifest P2P applications as, themselves, in their implementation, P2P networks.  
+
+Describing a software architecture from a P2P perspective is the next evolution of SOA, Web Services, and Distributed Systems. Applying concepts such as seeding, peers, and sharing ratios to autonomous, goal-oriented agents within a software architecture enables a new strategies for design, implementation, and evaluation of such systems.   
+
+In this exploration, we present Society.io, a framework leveraging Convention over Configuration and best practice approaches to achieve cognitive scaffolding of self-adaptive, agent-oriented software systems. We describe energize.me, an energy sharing network propagated by agents who trade harvested energy from Smart Grid enabled MicroGrids. We build Analyst, a finely grained composable abstraction generalizable archetype of agent that will play a prominent role in the development of future systems, and show how Analyst can use P2P concepts to make economic decisions about where to collect energy from and distribute it to.  

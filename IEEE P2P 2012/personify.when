@@ -1,0 +1,10 @@
+When should Personify be used?
+
+Personify, and Agent-Oriented Architectures in general, are No Silver Bullet[]. Agents, however, have been argued to offer a higher level of encapsulation than objects[]. They are primarily suitable constructs for situations where software entities within a system are expected to exhibit some type of "intelligent behavior", including:
+
+- Decision Making
+- Adaptation to environmental changes
+- Communication with different components
+
+It can argued that all software could be written this way. Shoham suggests that there is little value in augmenting our mechanical understanding of the behavior of a light switch with such construct[]. Nevertheless, he proposes that the "agentification" of non-agent software entities is an open research problem worthy of investigation.   
+
