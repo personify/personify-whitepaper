@@ -28,7 +28,7 @@ A Collector is a higher level agent that encapsulates Scout, Archivist, and Anal
 
 A Negotiator is an agent that specializes in bargaining with other agents. A Negotiator has a ranked set of goals that it satisfises over to create an optimal agreement with another agent. It forms the interface piece that encapsulates energy trade for an Energizer in the PowerNet.
 
-An Energizer is essentially a coordination layer that serves as an Aggregate Root[] for updating its internal representation of the world and adapting to environmental changes such as a power outage.  It serves as a Bounded Context[] for its sub-agents.
+An Energizer is essentially a Facade[], with a coordination layer that serves as an Aggregate Root[] for updating its internal representation of the world and adapting to environmental changes such as a power outage.  It serves as a Bounded Context[] for its sub-agents.
 
 References:
 B. Cross, "Why prismatic goes faster with clojure," in Clojure/West, Mar. 2012.

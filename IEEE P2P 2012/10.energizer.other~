@@ -1,0 +1,5 @@
+Other Approaches
+
+One could consider building such a system in alternate paradigms. For example, one could make the PowerNet entirely SOA based. This may mean exposing  a Facade[] for communicating with sub services, or it could imply the elimination of the encapsulation of responsibilities by pulling up all Scout, Archivist, and Analyst activities to the top level. This increases the complexity of the architecture by increasing the number of components analyzed, essentially adding cognitive load[]. 
+
+Such an approach may also lose the interesting properties of an agent: autonomy and adaptability. Although such systems can be configured by tooling to achieve similar outcomes, it is not a part of the paradigm inherently and may be easy to miss. Additionally, as encapsulation is compromised, responsibilities for these concerns may drift to various parts of the application.
