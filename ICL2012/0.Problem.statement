@@ -1,0 +1,8 @@
+Problem Statement
+
+Modern web applications such as Prismatic [1], Pandora[2] seek to connect users with personalized media based upon their interests. Some have said that the future of media is completely personalized [2]. But can this create unintended side-effects, such as the so-called "echo chambers"[4] where people are only exposed to views they are already familiar/agree with? Can this lead to intellectual stagnation, bombarding one with similar messages that require little additional understanding? Can one leverage this technology to not only find topically related information, but actually serve as a knowledge growth vehicle? In this work, we introduce Educate.me, which seeks to do exactly that.
+
+References:
+[1] http://getprismatic.com
+[2] http://www.pandora.com
+[3] http://www.readwriteweb.com/archives/facebook_exec_all_media_will_be_personalized_in_3.php

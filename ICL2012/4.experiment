@@ -1,0 +1,24 @@
+Experiment
+
+In order to gauge the efficacy of Educate.me, a series of experiments are proposed. 
+
+Does it scaffold learning effectively?
+
+One test is to see if there is a measurable difference in learning between independent research on an unknown topic scaffolded with educate.me versus completely free-form. Extraneous variables, such as maturity of research methodology and technique, should be accounted for. Hence, a 2x2 factorial design[] is proposed.
+
+Two groups--high school students and college graduates-- with two approaches --independent or with educate.me-- will research a candidate topic accessible to both groups--such as the chemical reactions at the core of the sun, will be assigned. A pre-post testing format will be used to determine
+
+-- (a) is there a statistically significant difference in retention between educate.me and independent research 
+-- (b) is there a significant difference in the amount of time taken (with educate.me tracking the time spent by each subject, and the independent research taking place in controlled condition.)
+
+It is expected that users will take less time to do research and score higher using educate.me.
+
+Is there a measurable difference in sophistication of material desired by user after scaffolding with educate.me?
+
+Another test is to measure whether the sequenced progression of material from surface level popular treatment to expert-level detail actually results in cultivation of genuine progression through knowledge space and expertise. As cognitive science suggests that cultivation of expertise requires about 10,000 hours[], it is possibly unfeasible for an experiment to try to conduct a longitudinal analysis long enough to measure this type of evolution. 
+
+Instead, a protracted evaluation throughout the course of a semester is suggested for topics related to a course on engineering. Students will be asked to use educate.me on average for 3 hours per week over the course of a semester to read articles on topics related to course material. After the semester, students will be asked to independently select subsequent readings on the content area. It is expected that students will pick pieces containing more in-depth coverage of material, such as an Communications of the ACM article on artificial intelligence, over a popular science overview piece on Wired.
+
+Are there other metrics that capture expertise, relevance, and the knowledge content better than the chosen model? 
+
+Another test is to measure whether there are other metrics or paradigms that can better describe progression through knowledge space rather than the selected heuristics. For example, a socio-constructivist theory[] grounded metric that analyzes the progression of a group of students in a similar cohort, trying to keep them reading through the same material as their peers, may result in the development of higher individual expertise as a result of communal interaction. Subsequent tests with different factors will seek to isolate individal tweaks of heuristic parameters by replicating the learning difference experiments with different search heuristics.
