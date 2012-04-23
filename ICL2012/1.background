@@ -1,13 +1,27 @@
 Background
 
-Learning systems such as educational games[][][], virtual communities[][][], and Intelligent Tutoring Systems[][][] have long sought to provide users with computer aided instruction. These systems have been shown to be efficacious in various contexts[][][], but have not found widespread deployment or ubiquity in modern K-12 environments. 
+Learning systems such as educational games[1][2][3], virtual communities[4][5][6], and Intelligent Tutoring Systems[7][8][9] have long sought to provide users with computer aided instruction. These systems have been shown to be efficacious in various contexts, but have not found widespread deployment or ubiquity in modern K-12 environments. 
 
-Modern innovations in education such as Khan Academy[], Code Academy[], and Mathalicious[] have people approaching education in the 21st century from a personalized, technologically oriented approach. Concerns remain that popular software may not incorporate the findings of educational theory and cognitive science. Furthermore, although such software provides learners a pathway through a sequenced set of content, it has little understanding of a learner's current knowledge, cognitive load[], or differentiated model of expertise[]. 
+Modern innovations in education such as Khan Academy[10], Code Academy[11], and Mathalicious[12] approach education in the 21st century as a technologically oriented personalized experience. Concerns remain that popular software may not incorporate the findings of educational theory and cognitive science. 
+Furthermore, although such software provides learners a pathway through a sequenced set of content, it has little understanding of a learner's current knowledge, cognitive load[13], or differentiated model of expertise[14]. 
 
-Can we do better? Can we leverage the same type of personalization approach Prismatic and Pandora use to help people learn informatoion?
+Can we do better? Can we leverage the same type of personalization approach Prismatic and Pandora use to help people learn information?
 
 Educate.me is a service that seeks to do exactly that.
 
 
 References:
-[]
+[1] http://www.reader-rabbit.com/
+[2] http://www.carmensandiego.com/hmh/site/carmen/
+[3] http://en.wikipedia.org/wiki/Munchers
+[4] http://muve.gse.harvard.edu/rivercityproject/
+[5] http://globe.gov/
+[6] Cognition and T. G. at Vanderbilt, "The jasper series as an example of anchored instruction: Theory, program description, and assessment data," Educational Psychologist, vol. 27, no. 3, pp. 291-315, Jun. 1992. [Online]. Available: http://dx.doi.org/10.1207/s15326985ep2703_3
+[7] K. Vanlehn, C. Lynch, K. Schulze, J. A. Shapiro, R. Shelby, L. Taylor, D. Treacy, A. Weinstein, and M. Wintersgill, "The andes physics tutoring system: Lessons learned," Int. J. Artif. Intell. Ed., vol. 15, no. 3, pp. 147-204, Aug. 2005. [Online]. Available: http://portal.acm.org/citation.cfm?id=1434932
+[8]G. Biswas, K. Leelawong, D. Schwartz, N. Vye, and T. T. A. G. at Vanderbilt, "Learning by teaching: A new agent paradigm for educational software," Applied Artificial Intelligence, vol. 19, no. 3-4, pp. 363-392, Mar. 2005. [Online]. Available: http://dx.doi.org/10.1080/08839510590910200
+[9]A. C. Graesser, K. Wiemer-Hastings, P. Wiemer-Hastings, and R. Kreuz, "AutoTutor: A simulation of a human tutor," Cognitive Systems Research, vol. 1, no. 1, pp. 35-51, Dec. 1999. [Online]. Available: http://dx.doi.org/10.1016/S1389-0417(99)00005-4
+[10] http://www.khanacademy.org/
+[11] http://www.codecademy.com/#!/exercises/0
+[12] http://www.mathalicious.com/
+[13] R. C. Clark, F. Nguyen, and J. Sweller, Efficiency in Learning: Evidence-Based Guidelines to Manage Cognitive Load.    Pfeiffer, Dec. 2005. [Online]. Available: http://www.worldcat.org/isbn/0787977284
+[14] A. Hunt, Pragmatic Thinking and Learning: Refactor Your Wetware (Pragmatic Programmers), 1st ed.    Pragmatic Bookshelf, Nov. 2008. [Online]. Available: http://www.worldcat.org/isbn/1934356050
