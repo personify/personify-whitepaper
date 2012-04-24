@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<!-- saved from url=(0054)http://twitter.github.com/bootstrap/examples/hero.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>educate.me, a Personified social education application</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="educate.me is a research collaboration between Nicholas Vaidyanathan and Fractal Innovations LLC to develop a next generation personalized media platform that helps you learn">
+    <meta name="author" content="Nicholas Vaidyanathan">
+
+    <!-- Le styles -->
+    <link href="http://twitter.github.com/bootstrap/assets/css/bootstrap.css" rel="stylesheet">
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+	  .col {
+		float:left;
+		width:33%;
+	  }
+	</style>
+    <link href="http://twitter.github.com/bootstrap/assets/css/bootstrap-responsive.css" rel="stylesheet">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="http://twitter.github.com/bootstrap/assets/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://twitter.github.com/bootstrap/assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://twitter.github.com/bootstrap/assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="http://twitter.github.com/bootstrap/assets/ico/apple-touch-icon-57-precomposed.png">
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <div class="hero-unit">
+        <h1>educate.me</h1>
+		<p>An educational agent that integrates social media activity to help you learn</p> 
+      </div>
+	  <div id="left" class="col">
+			<section id="problemStatement">
+				<h2>Problem Statement</h2>
+				<p>Modern web applications such as Prismatic [1] and Pandora[2] seek to connect users with personalized media based upon their interests. Some have said that the future of media is ubiquitous personalization [3]. Can this create potentially unintended side-effects?</p>
+				<ul>
+					<li>Does this facilitate development of so-called "echo chambers", where people are only exposed to views they are already familiar/agree with?</li>
+					<li>Can this lead to intellectual stagnation, bombarding one with similar messages that require little additional understanding? </li>
+					<li>Can one leverage this technology, to not only to find topically related information, but to actually serve as a knowledge growth vehicle? </li>
+				</ul>
+				<p>In this work, we introduce educate.me, which seeks to integrate social media information with classical student modeling[5][6] to develop a holistic model for educational sequencing.</p>
+			</section>
+			<div class="image">
+				<img src="img/problem.png" alt="problem scenario" width="350px" height="300px"/>
+				<p><strong>Figure 1: le problem</strong></p>
+			</div>
+			<section id="background">
+				<h2>Background</h2>
+				<p>Learning systems such as educational games[1][2][3], virtual communities[4][5][6], and Intelligent Tutoring Systems[7][8][9] have long sought to provide users with computer aided instruction. These systems have been shown to be efficacious in various contexts. Yet they have not found widespread deployment or ubiquity in modern K-12 environments. </p>
+				<p>Modern innovations in education such as Khan Academy[10], Code Academy[11], and Mathalicious[12] approach education in the 21st century as a technologically oriented personalized experience. Concerns remain that popular software may not incorporate the findings of educational theory and cognitive science. </p>
+				<p>Although such software provides learners a pathway through a sequenced set of content, it has little understanding of a learner's current knowledge, cognitive load[13], or differentiated model of expertise[14]. </p>
+				<p>Can we do better? Can we leverage the same type of personalization approach Prismatic and Pandora use to help people learn information?</p>
+				<p>Educate.me is a service that seeks to do exactly that.</p>
+			</section>
+		</div>
+		<div id="center" class="col">
+			<section id="approach">
+				<h2>Approach</h2>
+				<p>Educate.me is personalized pedagogical software that integrates a user's interests and social media presence in order to help them learn. It accomplishes this through the use of cutting edge concepts in artifical intelligence, data mining, knowledge representation, and software engineering. It develops an agent-oriented system that autonomously crawls and collects content based on relevance to users interest and customizable suitability metrics.</p>
+				<p>A user begins by linking social media accounts to their Educate.me profile. Educate.me then analyzes the user's posted hyperlinks and their activity on media (such as likes and retweets), clusters them based on keyword similarity, and generates a set of interests.  Users are free to modify and augment their generated interests.</p>
+				<p>Content is also analyzed heuristically to derive knowledge content using metrics such as:</p>
+				<ul>
+					<li>Flesch-Kincaid readability score[1]</li>
+					<li>presence of hypermedia (video, audio, pictures)</li>
+					<li>expertise of author (as defined by number of articles with similar keywords, number of followers on social media )</li>
+					<li> comment activity (as defined by number of posts signifying discussions, with each comments evaluated for richness of critique)</li>
+					<li> reception of the community (as defined by retweets/reblogs, using sentiment analysis for detection of bias)</li>
+					<li> proximity to most cited articles/authors for the topic</li>
+				</ul>
+				<p>Users are then classified along a knowledge continuum per topic based upon the heuristic analysis. When new content is requested, it is pulled and classified from available media providers. Content that is proximately close yet slightly more advanced is favored and selected for future consumption. </p>
+			</section>
+			<section id="example">
+				<h2>Example</h2>
+				<p>Nick is interested in learning about liquid salt thorium powered nuclear reactors. He is a college student who is Competent in computer science but a Novice in nuclear energy and an Advanced Beginning in electrical circuits. He logs into Educate.me, which creates an Educator agent for him with Personify[]. </p>
+				<p>The Educator connects with his Facebook and Twitter profile and integrates information. It discovers that he typically reads at the college level and favors articles high in technical content.Nick's Educator then begins searching the web for related articles, developing a knowledge sequence progressing from basic Wikipedia articles to pop media journalism to Google Scholar citations for the theoretical underpinnings of the work.</p>
+			</section>
+			<div class="image">
+				<img src="img/initial.png" alt="initial design" width="350px" height="200x" /> 
+			</div>
+		</div>
+		<div id="right" class="col">
+			<section id="experiment">
+				<h2>Experiment</h2>
+				<p>In order to gauge the efficacy of educate.me, a series of experiments are proposed. </p>
+				<h3>Does it scaffold learning effectively?</h3>
+				<p><strong>Is there a measurable difference in learning between independent research on an unknown topic scaffolded with educate.me versus completely free-form research? </strong></p>
+				<p><em>Extraneous variables, such as maturity of research methodology and technique, should be accounted for. Hence, a 2x2 factorial design is proposed.</em></p>
+				<p>Two groups--high school students and college graduates-- with two approaches --independent or with educate.me-- will research a candidate topic accessible to both groups--such as the chemical reactions at the core of the sun. A pre-post testing format will be used to determine:</p>
+				<ul>
+					<li>Is there a statistically significant difference in retention between educate.me and independent research?</li>
+					<li>Is there a significant difference in the amount of time taken? (with educate.me tracking the time spent by each subject, and the independent research taking place in controlled condition.)</li>
+				</ul>
+				<p>It is expected that users will take less time to do research and score higher using educate.me.</p>
+				<h3>Is there a measurable difference in the sophistication of material desired by user after scaffolding with educate.me?</h3>
+				<h3>Does the sequenced progression of material from surface level popular treatment to expert-level detail actually result in deep learning?</h3>
+				<p>Since cognitive science suggests that cultivation of expertise requires about 10,000 hours, it may be unfeasible for an experiment to try to conduct a longitudinal analysis long enough to measure this type of evolution.Instead, a protracted evaluation throughout the course of a semester is suggested for topics related to a course on engineering. Students will be asked to use educate.me for roughly 3 hours per week over the course of a semester to read articles on topics related to course material. After the semester, students will be asked to independently select subsequent readings on the content area.  It is expected that students will pick pieces containing more in-depth coverage of material, such as a Communications of the ACM article on artificial intelligence versus an overview piece on Wired Magazine.</p>
+ 				<h3>Are there other metrics that capture expertise, relevance, and the knowledge content better than the chosen model? </h3>
+				<h3>What metrics best describe the content depth of piece of media, and how can we relate an individual's understanding to it?</h3>
+				<p>For example, a socio-constructivist theory[] grounded metric may analyze the progression of a group of students in a cohort, keeping them in sync.  This may result in the development of higher individual expertise as a result of communal interaction.  Subsequent tests with different metrics will seek to identify the most effective set of parameters by replicating the learning difference experiments.</p>	
+			</section>
+		</div>
+	</div> <!-- /container -->
+</body></html>
