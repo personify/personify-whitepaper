@@ -1,16 +1,20 @@
 Approach
 
-Educate.me is personalized pedagogical software which integrates a user's interests and social media presence to present content in a manner moves them along a knowledge space. It accomplishes this through the use of cutting edge concepts in artifical intelligence, data mining, knowledge representation, and software engineering, developing an agent-oriented system that autonomously crawls and collects content based on relevance to interest and user-defined, customizable suitability metrics.
+Educate.me is personalized pedagogical software that integrates a user's interests and social media presence in order to help them learn. It accomplishes this through the use of cutting edge concepts in artifical intelligence, data mining, knowledge representation, and software engineering. It develops an agent-oriented system that autonomously crawls and collects content based on relevance to users interest and customizable suitability metrics.
 
-A user begins by linking social media accounts to their Educate.me profile. Educate.me then analyzes the user's posted hyperlinks and activity on media (such as likes and retweets), clusters them based on keyword similarity and generates a set of interests, similar to systems such as Klout[]. Users are free to modify and augment their generated interests. 
+A user begins by linking social media accounts to their Educate.me profile. Educate.me then analyzes the user's posted hyperlinks and their activity on media (such as likes and retweets), clusters them based on keyword similarity, and generates a set of interests.  Users are free to modify and augment their generated interests. 
 
 Content is also analyzed heuristically to derive knowledge content using metrics such as:
 
-- Flesch-Kincaid readability score[]
+- Flesch-Kincaid readability score[1]
 - presence of hypermedia (video, audio, pictures)
 - expertise of author (as defined by number of articles with similar keywords, number of followers on social media )
 - comment activity (as defined by number of posts signifying discussions, with each comments evaluated for richness of critique)
 - reception of the community (as defined by retweets/reblogs, using sentiment analysis[][] for detection of bias)
 - proximity to most cited articles/authors for the topic
 
-Users are then classified along a knowledge continuum per topic based upon the heuristic analysis. When new content is requested, it is pulled and classified from available media providers. Content that is proximately close yet slightly more advanced is favored and selected for future consumption.   
+Users are then classified along a knowledge continuum per topic based upon the heuristic analysis. When new content is requested, it is pulled and classified from available media providers. Content that is proximately close yet slightly more advanced is favored and selected for future consumption. 
+
+References:
+[1] Kincaid, J.P., Fishburne, R.P., Rogers, R.L., & Chissom, B.S. (1975). Derivation of New Readability Formulas (Automated Readability Index, Fog Count, and Flesch Reading Ease formula) for Navy Enlisted Personnel. Research Branch Report 8-75. Chief of Naval Technical Training: Naval Air Station Memphis.
+  
