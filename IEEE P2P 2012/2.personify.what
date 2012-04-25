@@ -1,4 +1,4 @@
-Personify is an experimental agile framework for self-adaptive, multi-agent software systems. It combines the best practices of agile software development[TDD][BDD][DDD][DSL][CI] and agent-oriented research[McCarthy][Shomham][Gaia][TROPOS] in artificial intelligence to enable rapid construction of software as an organization of agents. Agents collborate in peer-to-peer networks, acting according to their beliefs, capabilities, and obligations, representing the world via internal Domain Models[] and interacting via Services[].
+Personify is an experimental agile framework for self-adaptive, multi-agent software systems. It combines the best practices of agile software development[TDD][BDD][DDD][DSL][CI] and agent-oriented research[McCarthy][Shomham][Gaia][TROPOS] in artificial intelligence to enable rapid construction of software as an organization of agents. Agents collaborate in peer-to-peer networks, acting according to their beliefs, capabilities, and obligations. They represent the world via internal Domain Models[] and interact through Services[].
 
    
 References
