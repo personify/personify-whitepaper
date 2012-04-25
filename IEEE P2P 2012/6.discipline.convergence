@@ -1,3 +1,10 @@
 Convergence of Disciplines
 
-Furthermore, the very notion of building software as P2P networks of agents opens up a whole new category of software architectural research. Metrics for reputation management[], trust[], security[], and reliability[] become available as tools to describe a software architecture. Additionally, traditional software architectural notions of information hiding[], architectural views[], and patterns[] could become relevant in P2P network analysis.
+Furthermore, the very notion of building software as P2P networks of agents opens up a new category of software architectural research. Metrics for reputation management[], trust[], security, and reliability become available as tools to describe a software architecture. Additionally, traditional software architectural notions of information hiding[], architectural views[], and patterns[] could become relevant in P2P network analysis.
+
+References
+[] S. D. Kamvar, M. T. Schlosser, and H. G. Molina, "The eigentrust algorithm for reputation management in P2P networks," in Proceedings of the 12th international conference on World Wide Web, ser. WWW '03.    New York, NY, USA: ACM, 2003, pp. 640-651. [Online]. Available: http://dx.doi.org/10.1145/775152.775242
+[] L.-H. Vu, M. Hauswirth, and K. Aberer, QoS-Based Service Selection and Ranking with Trust and Reputation Management.    Berlin, Heidelberg: Springer Berlin Heidelberg, 2005, vol. 3760, ch. 30, pp. 466-483. [Online]. Available: http://dx.doi.org/10.1007/11575771_30
+[] D. L. Parnas, "On the criteria to be used in decomposing systems into modules," Commun. ACM, vol. 15, no. 12, pp. 1053-1058, Dec. 1972. [Online]. Available: http://dx.doi.org/10.1145/361598.361623
+[] P. B. Kruchten, "The 4+1 view model of architecture," IEEE Software, vol. 12, no. 6, pp. 42-50, Nov. 1995. [Online]. Available: http://dx.doi.org/10.1109/52.469759
+[] E. Gamma, R. Helm, R. Johnson, and J. Vlissides, Design Patterns: Elements of Reusable Object-Oriented Software, 1st ed.    Addison-Wesley Professional, Nov. 1994. [Online]. Available: http://www.worldcat.org/isbn/0201633612

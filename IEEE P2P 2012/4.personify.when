@@ -1,10 +1,14 @@
-When should Personify be used?
+When should we use Personify?
 
-Personify, and Agent-Oriented Architectures in general, are No Silver Bullet[]. Agents, however, have been argued to offer a higher level of encapsulation than objects[]. They are primarily suitable constructs for situations where software entities within a system are expected to exhibit some type of "intelligent behavior", including:
+Personify, and Agent-Oriented Architectures in general, are No Silver Bullet[]. Agents, however, are argued to offer a higher level of encapsulation than objects[]. They are primarily suitable constructs for situations where software entities within a system are expected to exhibit some type of "intelligent behavior", including:
 
 - Decision Making
 - Adaptation to environmental changes
 - Communication with different components
 
-It can argued that all software could be written this way. Shoham suggests that there is little value in augmenting our mechanical understanding of the behavior of a light switch with such construct[]. Nevertheless, he proposes that the "agentification" of non-agent software entities is an open research problem worthy of investigation.   
+One can argue that one can write all software this way. Shoham suggests that there is little value in augmenting our mechanical understanding of the behavior of a light switch with such construct[]. Nevertheless, he proposes that the "agentification" of non-agent software entities is an open research problem worthy of investigation.   
 
+References
+[] F. P. Brooks, The mythical man-month : essays on software engineering, anniversary ed.    Addison-Wesley Pub. Co, Aug. 1995. [Online]. Available: http://www.worldcat.org/isbn/0201835959
+[] F. Zambonelli and A. Omicini, "Challenges and research directions in Agent-Oriented software engineering," Autonomous Agents and Multi-Agent Systems, vol. 9, no. 3, pp. 253-283, Nov. 2004. [Online]. Available: http://dx.doi.org/10.1023/B:AGNT.0000038028.66672.1e
+[] Y. Shoham, "Agent-oriented programming," Artif. Intell., vol. 60, no. 1, pp. 51-92, Mar. 1993. [Online]. Available: http://dx.doi.org/10.1016/0004-3702(93)90034-9

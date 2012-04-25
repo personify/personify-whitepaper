@@ -1,3 +1,5 @@
+Why should we use Personify?
+
 Personify represents advancement in programming toolset and methodology, evolving the way we write software. We typically develop software as a set of passive modules, to be invoked in specific sequence to achieve desired functionality. Components of the system are receptive entities. They may manifest intelligence in use, but intelligence is not a first class concept in the implementation.
 
 Another paradigm is rapidly emerging. Agent Oriented Software Engineering [][][] seeks to engineer software as collaborative societies of agents, capable of autonomous action and adaptation. Agents form a super-structure of functionality and intelligence that they use to model beliefs, capabilities, and obligations[]. Their interactions are typically P2P.
@@ -7,6 +9,9 @@ Analysis of leading BitTorrent clients[Vuze][BitTornado][OneSwarm] reveals that 
 Such an approach may not seem to have obvious benefits. One could argue that as long as the software manifests the behavior to allow clients to connect to each other and form P2P networks, its implementation is irrelevant. Yet one cannot help but notice how  conceptually elegant the idea of building P2P applications as themselves P2P networks may seem, on a meta-level. It may also have other significant benefits.
 
 References
+[] M. Iliofotou, G. Siganos, X. Yang, and P. Rodriguez, "Comparing BitTorrent clients in the wild: the case of download speed," in Proceedings of the 9th international conference on Peer-to-peer systems, ser. IPTPS'10.    Berkeley, CA, USA: USENIX Association, 2010, p. 11. [Online]. Available: http://portal.acm.org/citation.cfm?id=1863156
+[] Z. Chen, Y. Chen, C. Lin, V. Nivargi, and P. Cao, "Experimental analysis of Super-Seeding in BitTorrent," in 2008 IEEE International Conference on Communications.    IEEE, 2008, pp. 65-69. [Online]. Available: http://dx.doi.org/10.1109/ICC.2008.20
+[] T. Isdal, M. Piatek, A. Krishnamurthy, and T. Anderson, "Privacy-preserving P2P data sharing with OneSwarm," SIGCOMM Comput. Commun. Rev., vol. 40, no. 4, pp. 111-122, Aug. 2010. [Online]. Available: http://dx.doi.org/10.1145/1851275.1851198
 [] M. Wooldridge, N. R. Jennings, and D. Kinny, "The gaia methodology for Agent-Oriented analysis and design," in Journal of Autonomous Agents and Multi-Agent Systems, vol. 3, 2000, pp. 285-312. [Online]. Available: http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.17.2121
 [] F. Zambonelli and A. Omicini, "Challenges and research directions in Agent-Oriented software engineering," Autonomous Agents and Multi-Agent Systems, vol. 9, no. 3, pp. 253-283, Nov. 2004. [Online]. Available: http://dx.doi.org/10.1023/B:AGNT.0000038028.66672.1e
 [] J. Lind, "Patterns in agent-oriented software engineering," in Proceedings of the 3rd international conference on Agent-oriented software engineering III, ser. AOSE'02.    Berlin, Heidelberg: Springer-Verlag, 2003, pp. 47-58. [Online]. Available: http://portal.acm.org/citation.cfm?id=1754732
