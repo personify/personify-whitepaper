@@ -4,7 +4,7 @@ Most of the literature has been silent on the application of the best practices 
 
 Describing software architecture from a P2P perspective is the next evolution of SOA, Web Services, and Distributed Systems. We can harvest new design, implementation, and evaluation strategies for software architectures by applying concepts such as seeding, peers, and sharing ratios within autonomous, goal-oriented collaborating agents.   
 
-In this exploration, we present Personify, a framework leveraging Convention over Configuration and best practice approaches to achieve cognitive scaffolding of self-adaptive, agent-oriented software systems. 
+In this exploration, we present Personify-- a framework leveraging Convention over Configuration and best practice approaches to scaffold construction of self-adaptive, agent-oriented software systems. 
 
 We describe energize.me, an energy sharing network propagated by agents who trade harvested energy from Smart Grid enabled MicroGrids. 
 
