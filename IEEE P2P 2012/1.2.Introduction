@@ -8,4 +8,4 @@ In this exploration, we present Personify-- a framework leveraging Convention ov
 
 We describe energize.me, an energy sharing network propagated by agents who trade harvested energy from Smart Grid enabled MicroGrids. 
 
-We build Analyst, a finely grained composable abstraction generalizable archetype of agent that will play a prominent role in the development of future systems, and show how Analyst can use P2P concepts to make economic decisions about where to collect energy from and distribute it to.
+We build Analyst, a reasoning agent that uses P2P concepts to make economic decisions about where to collect energy from and distribute it to.
