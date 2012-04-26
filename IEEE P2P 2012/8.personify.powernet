@@ -1,19 +1,26 @@
 Why should we use Personify to build the PowerNet?
 
-No one knows how to build a PowerNet, yet. The technology stack is not fully there, in terms of hardware/software integration. Technology changes with time, so it is expected that integration of innovations in generation, storage, and information technology can make such a system possible. 
+No one knows how to build the PowerNet, yet. The technology stack is not fully there, in terms of hardware/software integration. Technology changes with time, so one can expect that integration of innovations in generation, storage, and information technology can make such a system possible. 
 
-The primary challenge is an architectural one. Obviously there will be multiple views: an electrical engineer will consider circuits, a network engineer will consider routing and switching, a softare engineer will consider the software components that can be used to build the system.
+The primary challenge is an architectural one. Obviously there will be multiple views: an electrical engineer will consider circuits, a network engineer will consider routing and switching, a software engineer will consider the software components that can be used to build the system.
 
-The goal is to build a P2P infrastructure for resource sharing that is agnostic of the resource it is distributing, with components that are able to adapt both to human input and autonomously adapt based on events within the network.   
+The goal is to build a P2P infrastructure for resource sharing that is nescient of the resource it is distributing; with components that are able to adapt both to human input, and autonomously adapt based on events within the network.   
 
-Many approaches could be taken to building a PowerNet. As it is essentially a P2P file sharing application that says Quantized Energy Is Just A Uniform Resource, one could imagine building such an application with something as "traditionally enterprise" as a Service Oriented Architecture[][] or something as lightweight as a set of Python scripts, as Bram Cohen's original BitTorrent[]. Each of these approaches attacks the problem from specific levels of abstraction: Services or Scripts. 
+One could build the PowerNet many ways. One could build it as a P2P file sharing application, via saying "Quantized Energy Is Just A Uniform Resource."
+Consequently, one could build such an app with a heavy formal infrastructure, such as a Service Oriented Architecture. Alternately, one could leverage lightweight scripts as Bram Cohen's original BitTorrent[]. 
+Each of these approaches attacks the problem from specific levels of implementation: Services or Scripts. 
 
-At such levels of abstraction, the intelligence for activities such as decision making and negotiation is pushed down deep into the implemenation. Such intelligence usually lives in the method/function bodies and lines of script. Consequently, it can be difficult to see the forest for the trees, especially when trying to add new intelligent features like automated calculation of P2P metrics such as Accountability Based Influence[] and Convivality Merics[] and dynamic adaptation of the network accordingly.
+These implementations push intelligence for activities such as decision-making and negotiation down. Such intelligence usually lives in the method/function bodies and lines of script. Consequently, it can be difficult to "see the forest for the trees." This can complicate trying to add new intelligent features like automated calculation of P2P metrics such as Accountability Based Influence[] and Convivality Metrics[]. It can also increase the complexity of achieving dynamic adaptation of network architecture.
 
-Agents, as a higher level of abstraction, allow us to reason about this network more simply. The notion of the intelligence of an agent becomes a first class entity within the paradigm. This enables things like adaptation and autonomy to be reasoned about at a higher level, from a conceptually cohesive perspective. 
+Agents, as a higher level of abstraction, allow us to reason with greater simplification about this network. Intelligence becomes a first class entity within the agent paradigm. This enables reasoning about aspects such as adaptation and autonomy at a higher level, from a conceptually cohesive perspective. 
 
-Agents "know" about their goals, the services they provide, and the obligations they have to other agents. The pieces that manifest that intelligence are designed to move away from statically defined logic to context-aware response. 
+Agents "know" about their goals, the services they provide, and the obligations they have to other agents. Aspects of intelligence, such as knowledge bases that hold beliefs and adaptation strategies, are designed to move away from statically defined logic to context-aware response. 
 
-When one considers that Agents can be recursively defined, such that a collective of agents may be treated as a single agent by another agent, the approach has the potential to scale nicely. Responsiblities can be pushed down to sub-agents that are specialized to a task, with the higher level collective serving as a coordination mechanism. This also improves maintainability and extensibility, as in order to fix broken functionality, or to augment and extend, one only has to look in one place.
+When one considers that Agents can be recursively defined, such that an agent may treat a collective of agents as a single agent, the approach scales nicely. Responsibilities are delegated to task-specialized sub-agents, with the higher level collective serving as a coordination layer. This also improves maintainability and extensibility. In order to fix broken functionality, or to augment and extend the system, one only has to look in one place.
 
-This sounds nice, of course, in theory. Now let's walk through how we would consider a PowerNet as a network of Energizers. We will describe a prototype for an Energizer.                         
+This sounds nice, of course, in theory. Now let us walk through how we would consider a PowerNet as a network of Energizers. We will describe a prototype for an Energizer.                         
+
+References:
+
+[] D. Kakade, "Community-based monitoring as an accountability tool: influence on rural health services in maharashtra, india," BMC Proceedings, vol. 6, no. Suppl 1, pp. O9+, 2012. [Online]. Available: http://dx.doi.org/10.1186/1753-6561-6-S1-O9
+[] P. Caire, B. Alcalde, L. van der Torre, and C. Sombattheera, "Conviviality measures," in The 10th International Conference on Autonomous Agents and Multiagent Systems - Volume 2, ser. AAMAS '11.    Richland, SC: International Foundation for Autonomous Agents and Multiagent Systems, 2011, pp. 895-902. [Online]. Available: http://portal.acm.org/citation.cfm?id=2031745
